@@ -1,7 +1,7 @@
 // server/controllers/auth.controller.js
 const User = require('../models/User');
 const Business = require('../models/Business');
-const PlatformAdmin = require('../models/PlatformAdmin');
+const PlatformAdmin = require('../models/platformAdmin');
 const { generateToken, generateAdminToken } = require('../utils/jwt');
 const bcrypt = require('bcryptjs');
 

@@ -1,6 +1,6 @@
 const Business = require('../models/Business');
 const User = require('../models/User');
-const PlatformAdmin = require('../models/PlatformAdmin');
+const PlatformAdmin = require('../models/platformAdmin');
 const Transaction = require('../models/Transaction');
 
 // Get all businesses (platform admin)

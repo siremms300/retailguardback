@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const PlatformAdmin = require('../models/PlatformAdmin');
+const PlatformAdmin = require('../models/platformAdmin');
 const { verifyToken } = require('../utils/jwt');
 
 const protect = async (req, res, next) => {
